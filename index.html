@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas HTML Dasar</title>
+    <style>
+      body {
+        margin: 50px;
+      }
+      h1 {
+        color: rgb(25, 80, 0);
+      }
+      h2 {
+        color: red;
+      }
+      img {
+        border-radius: 50%;
+      }
+      form{
+        text-align: left;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Data Diri</h1>
+    <img src="./foto.png" alt="Enggar Dyah" width="200px" height="" />
+    <div class="biodata">
+      <h2>Biodata</h2>
+      <table border="1" cellpadding="20" cellspacing="0">
+        <tr>
+          <td>Nama</td>
+          <td>:</td>
+          <td>Enggar Dyah Bintang Ayuna</td>
+        </tr>
+        <tr>
+          <td>Asal Kampus</td>
+          <td>:</td>
+          <td>Universitas Bina Sarana Informatika</td>
+        </tr>
+        <tr>
+          <td>Program Studi</td>
+          <td>:</td>
+          <td>Sistem Informasi</td>
+        </tr>
+      </table>
+    </div>
+    <div class="informasi">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya adalah mahasiswa aktif semester 5, saya mempunyai minat yang tinggi pada bidang Front End Web Developer. Aktivitas saya sehari-hari selama libur kuliah adalah belajar otodidak melalui channel youtube yang mempelajari web
+        developer.
+      </p>
+      <p>
+        Saat ini, saya aktif mengikuti studi independent di <a href="https://www.instagram.com/product.zilla/"> Productzilla Academy</a> dan bekerja pada proyek-proyek kecil untuk mengasah keterampilan saya. Saya antusias untuk terus
+        belajar dan berkolaborasi dalam menciptakan website yang menarik.
+      </p>
+    </div>
+
+    <div class="aktivitas">
+      <h2>Minat</h2>
+      <ol>
+        <li>UI/UX Desain</li>
+        <li>Front End Website</li>
+      </ol>
+    </div>
+
+    <div class="pesan">
+      <legend><h2>Pesan dan Kesan</h2></legend>
+      <form action="">
+        <table  cellspacing="0" cellpadding="10" >
+          <tr>
+             <th><label for="nama">Nama Lengkap</label></th>
+            <td>:</td>
+            <td><input type="text" id="nama" /></td>
+          </tr>
+          <tr>
+             <th><label for="email">Email</label></th>
+            <td>:</td>
+            <td><input type="email" id="email" /></td>
+          </tr>
+          <tr>
+            <th>Jenis Kelamin</th>
+            <td>:</td>
+            <td>
+              <label for="jk">
+                <input type="radio" id="jk" name="perempuan"> Perempuan
+                 <input type="radio" id="jk" name="perempuan"> Laki-laki
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="pesan">Pesan dan kesan</label></th>
+            <td>:</td>
+            <td><textarea  id="pesan" rows="10" cols="30"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td ><button type="submit">Kirim</button></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
